@@ -1,0 +1,221 @@
+body
+{
+    margin: 0;
+}
+
+/* Reset margins and padding */
+.cma-logo html, body 
+{
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure body and html cover the full viewport */
+}
+
+.background-image 
+{
+
+    height: 100vh; /* Full viewport height */
+    background-size: cover; /* Ensures the background covers the entire section */
+    background-repeat:repeat-x; /* Prevent background repetition */
+    overflow-x: hidden;
+}
+
+/* First image as background for the first section */
+.forest 
+{
+    height: 1400px;
+    background-image: url('./Assets/Backgrounds/Forest_Background_Cropped.png');
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: flex-start; /* Centers vertically */
+    background-position: center;
+}
+
+/* Second image as background for the second section */
+.dirt 
+{
+    height: 2000px;
+    background-image: url('./Assets/Backgrounds/Dirt_Background.png');
+}
+
+.toolbar
+{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+}
+
+.logo-container
+{
+    height: 250px;
+    width: 250px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; /* Absolute positioning within the .forest container */
+    top: 30%; /* Position 1/4 (25%) from the top of the container */
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.cma-logo
+{
+    height: 100px;
+    width: 100px;
+    margin: 0;
+}
+
+.logo-message h2, h3, h4
+{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.toolbar img
+{
+    height: 175px;
+}
+
+.footer-main
+{
+    background-size: cover; /* Ensures the background covers the entire section */
+    background-repeat: no-repeat; /* Prevent background repetition */
+    margin-top: -88px;
+    
+    background-size: cover; /* Ensures the background covers the entire section */
+    background-repeat: no-repeat; /* Prevent background repetition */
+    overflow-x: hidden;
+}
+
+.footer-border
+{
+    position: relative;
+    z-index: 2;
+    margin-top: -500px;
+    background-size: cover; /* Ensures the background covers the entire section */
+    background-repeat: no-repeat; /* Prevent background repetition */
+    overflow-x: hidden;
+    
+}
+
+.content-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;;
+}
+
+.content-block
+{
+
+    width: 1300px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content-icon img
+{
+    width: 240px;
+}
+
+.content
+{
+    
+    background-color: gray;
+    border: 5px solid black;
+    height: 245px;
+    width: 1100px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reverse
+{
+    flex-direction: row-reverse;
+}
+
+.vertical-spacer
+{
+    width: 5px;
+    height: 250px;
+    background-color: black;
+    margin: 50px;
+}
+
+.vertical-spacer-small
+{
+    width: 5px;
+    height: 250px;
+    background-color: black;
+    margin: 25px;
+}
+.youtube-vid
+{
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 200px;
+    width: 295px;
+}
+
+.section-icon img
+{
+    height: 200px;
+}
+
+.the-team img
+{
+    height: 190px;
+}
+
+.right-allign
+{
+    text-align: right;
+}
+
+.circle-link
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    width: 220px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color:#52361a;
+}
+
+.small-icon
+{
+    height: 150px;
+}
+
+.eliv8
+{
+    background-image: url('./Assets/PortfolioPics/EV8.jpg');
+}
+
+.package
+{
+    background-image: url('./Assets/PortfolioPics/404.jpg');
+}
+
+.lense
+{
+    background-image: url('./Assets/PortfolioPics/MWH.png');
+}
+
+.jam-icon
+{
+    background-position: center;
+}
